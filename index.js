@@ -23,7 +23,7 @@ let history=[];
 let num=0;
 function copyIncrease(id){
    num++;
-   let totalCopy=document.getElementById(id).innerText=num+"Copy";
+   let totalCopy=document.getElementById(id).innerText=num +" "+"Copy";
    alert("Copy done.");
    return totalCopy;
 };
